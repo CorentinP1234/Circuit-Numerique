@@ -8,7 +8,7 @@ generic (
 );
 port (
 	e1 : in std_logic_vector (N+1 downto 0);
-    reset : in sdt_logic;
+    reset : in std_logic;
     preset : in std_logic;
     clock : in std_logic;
     si : out std_logic_vector (N+1 downto 0)
